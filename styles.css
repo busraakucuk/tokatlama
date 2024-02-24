@@ -10,7 +10,11 @@
   max-width: 100%; /* Ensure video fits inside container */
   height: auto; /* Maintain aspect ratio */
   border: none; /* Remove border */
+  display: block; /* Make sure the video is displayed as a block element */
+  margin: 0 auto; /* Center the video horizontally */
+  visibility: visible; /* Ensure the video is initially visible */
 }
+
 
 /* Hide video controls */
 #video::-webkit-media-controls {
